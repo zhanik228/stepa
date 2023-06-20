@@ -1,16 +1,16 @@
-import InputDark from "../../components/input/darkinput/InputDark"
+
+import { useState } from "react"
+import SearchSection from "../../containers/search-section/SearchSection"
 import '../main/MainPage.css'
+import Courses from "../../containers/courses/Courses"
+import Modal from "../../components/modal/Modal"
 
 const MainPage = () => {
   return (
-    <section className="search-filter section-margin">
-      <div className="search-filter__container container">
-        <div className="search-filter__inner">
-          <InputDark placeholder={'Название курса, автор или предмет'} isLong={true}/>
-
-        </div>
-      </div>
-    </section>
+    <>
+      <SearchSection/>
+      <Courses/>
+    </>
   )
 }
 

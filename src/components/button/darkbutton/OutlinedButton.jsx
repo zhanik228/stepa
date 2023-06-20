@@ -2,7 +2,7 @@ import '../darkbutton/OutlinedButton.css'
 
 const OutlinedButton = (props) => {
   return (
-    <button className="outlined-button">
+    <button onClick={e => props.onClick(e)} className="outlined-button">
       {props.children}
     </button>
   )

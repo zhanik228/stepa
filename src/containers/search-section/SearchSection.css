@@ -1,0 +1,14 @@
+.search-filter__inner {
+    background-color: #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  @media screen and (max-width: 670px) {
+    .search-filter__inner {
+      flex-direction: column;
+      gap: 15px;
+    }
+  }

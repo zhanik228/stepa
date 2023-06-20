@@ -1,0 +1,11 @@
+.green-button {
+    background-color: greenyellow;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color .3s linear;
+}
+
+.green-button:hover {
+    background-color: rgb(99, 255, 47);
+}

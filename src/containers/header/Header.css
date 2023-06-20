@@ -31,9 +31,6 @@
     flex-direction: column;
     width: 100%;
   }
-  .search-form .search-form__input {
-    width: 100%;
-  }
   .btn-group {
     width: 100%;
     justify-content: space-between;
