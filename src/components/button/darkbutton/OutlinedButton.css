@@ -1,0 +1,13 @@
+.outlined-button {
+  background-color: transparent;
+  border: 1px solid #bbbbbb7e;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: border-color .3s linear;
+}
+
+.outlined-button:hover {
+  border-color: #ccc;
+}

@@ -1,0 +1,44 @@
+.header {
+  background-color: #222;
+  color: #fff;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header__right {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+@media screen and (max-width: 761px) {
+  .header__inner {
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+  .header__right {
+    flex-direction: column;
+    width: 100%;
+  }
+  .search-form .search-form__input {
+    width: 100%;
+  }
+  .btn-group {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .outlined-button {
+    width: 100%;
+  }
+}
