@@ -2,6 +2,7 @@
     background-color: aliceblue;
     border-radius: 10px;
     padding: 10px;
+    display: block;
   }
   
   .course-card__header {

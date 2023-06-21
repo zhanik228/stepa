@@ -3,11 +3,12 @@ import favouriteIcon from '../../assets/course-card/love.png'
 import user from '../../assets/course-card/user.png'
 import time from '../../assets/course-card/time-left.png'
 import '../course-card/CourseCard.css'
+import { Link } from 'react-router-dom'
 
 const CourseCard = ({course}) => {
     return (
         <li className="course-list__col">
-          <div className="course-list__card course-card">
+          <Link to={`/course/${course.id}`} className="course-list__card course-card">
               <div className="course-card__header">
                   <div className="course-card__header-content">
                       <h3 className="course-card__title">
@@ -37,7 +38,7 @@ const CourseCard = ({course}) => {
                   </div>
                   <p className="course-card__price">{course.price}</p>
               </div>
-          </div>
+          </Link>
         </li>
     )
 }

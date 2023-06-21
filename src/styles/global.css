@@ -37,7 +37,7 @@ button, input {
 
 /* section margin */
 .section-margin {
-  margin-top: 50px;
+  padding: 50px 0;
 }
 /* ----- */
 
@@ -51,6 +51,14 @@ button, input {
   font-size: 32px;
   font-weight: 700;
   margin: 20px 0;
+}
+
+.info-title {
+  font-size: 34px;
+}
+
+.info-subtitle {
+  font-size: 14px;
 }
 
 /* course nav */
@@ -109,4 +117,16 @@ button, input {
 .list__link_active {
   background-color: black;
   color: #fff;
+}
+
+
+/* course card icon container */
+.course-card__icon-wrapper {
+  display: flex;
+  gap: 20px;
+}
+.course-card__icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }

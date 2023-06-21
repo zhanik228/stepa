@@ -6,6 +6,7 @@ const Courses = () => {
     const [currentTab, setCurrentTab] = useState('new')
     const [newCourses, setNewCourses] = useState([
         {
+            id: 1,
             title: 'Как полететь на луну',
             author: 'Zhanik Winchester',
             users: '29',
@@ -15,6 +16,7 @@ const Courses = () => {
     ])
     const [popularCourses, setPopularCourses] = useState([
         {
+            id: 4,
             title: 'Популярный курс',
             author: 'Zhanik',
             users: '36',
