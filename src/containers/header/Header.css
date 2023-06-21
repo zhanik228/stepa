@@ -39,3 +39,18 @@
     width: 100%;
   }
 }
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+  gap: 20px;
+}
+
+.login-form input {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+}
